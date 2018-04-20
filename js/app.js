@@ -58,8 +58,12 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-
+var pg = document.createElement('div');
+pg.id = 'name7';
+pg.innerHTML = 'Peter Griffin';
+nameParent.appendChild(pg);
  
+
 /*8. Tim Duncan
 
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Old Man Riverwalk".
