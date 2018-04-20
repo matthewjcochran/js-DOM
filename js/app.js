@@ -30,25 +30,27 @@ var dibAlias3 = document.getElementById('alias3');
 dibAlias3.innerHTML = 'Concatenation';
 
 
-
-
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
+var classList = document.getElementsByClassName('profile');
+classList[0].innerHTML = 'Do you want to have some fun?';
 
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+classList[1].innerHTML = 'FIGHT ME!!!';
 
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var aliasList = document.getElementsByClassName('alias');
+aliasList[2].innerHTML = 'Bad Mother F$@ker';
 
 /*7. Peter Griffin
 
