@@ -70,8 +70,35 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var a8 = document.createElement('div');
+a8.id = 'alias8';
+a8.innerHTML = 'Old Man Riverwalk';
+aliasParent.appendChild(a8);
 
 
 //Final Boss
 /*9. Create your own profile.*/
+
+var me = document.getElementsByClassName('block3 col-sm-4')[2];
+
+var meImg = document.createElement('img');
+meImg.src = 'http://faculty.chaminade.edu/wp-content/uploads/sites/22/Matthew-Cochran.jpg';
+
+me.removeChild(me.firstChild);
+me.appendChild(meImg);
+
+var myName = document.createElement('div');
+myName.innerHTML = 'Matthew';
+myName.id = 'name9';
+me.appendChild(myName);
+
+var myPos = document.createElement('div');
+myPos.innerHTML = 'Teacher';
+myPos.id = 'position9';
+me.appendChild(myPos);
+
+var myBio = document.createElement('div');
+myBio.innerHTML = 'My biography is not that long but still not boring. I have been in Seattle, Iowa, and Hawaii';
+myBio.id = 'bio9';
+me.appendChild(myBio);
 
